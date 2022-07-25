@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="shortcut icon" href="./images/calculator.jpg">
+        <script src="./Javascript/Arithfunc.js" defer></script>
+    </head>
+    <body>        
+        <main>
+            <section class="container">
+                <section class="output">
+                    <div displayer1 class="previous-operand"></div>
+                    <div displayer2  class="current-operand"></div>        
+                </section>
+
+                <section class="btn-container">
+                    <section class="opr-container">
+                    <button operation_btn>+</button>
+                    <button operation_btn>-</button>
+                    <button operation_btn>x</button>
+                    <button operation_btn>/</button>
+                </section>
+
+                <section class="eql-merge">
+                    <section>
+                        <section class="sub-no-container">
+                            <button btn-number>7</button>
+                            <button btn-number>8</button>
+                            <button btn-number>9</button>
+                        </section>
+
+                        <section class="sub-no-container">
+                            <button btn-number>4</button>
+                            <button btn-number>5</button>
+                            <button btn-number>6</button>
+                        </section>
+
+                        <section class="sub-no-container">
+                            <button btn-number>1</button>
+                            <button btn-number>2</button>
+                            <button btn-number>3</button>
+                        </section>
+                        <section class="sub-no-container">
+                            <button btn-number class="zero-radius">0</button>
+                            <button btn-number>.</button>
+                            <button clear_all>AC</button>
+                        </section>
+                    </section>
+
+                    <section> 
+                        <button data-deleteno>C</button>
+                        <button equalbtn class="equal-btn eql-radius">=</button>
+                    </section>
+                </section>
+            </section>
+        </main>
+    </body>
+</html>
